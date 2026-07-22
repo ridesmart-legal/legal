@@ -4,19 +4,47 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RideSmart — Documentación oficial</title>
-<meta name="description" content="RideSmart: asistente de análisis de viajes para conductores de plataformas de transporte. Política de Privacidad, Términos y Condiciones y Licencias de Software.">
+<meta name="description" content="RideSmart: asistente de análisis de viajes para conductores de plataformas de transporte, con procesamiento OCR 100% local. Política de Privacidad, Términos y Condiciones y Licencias de Software.">
+<meta name="theme-color" content="#0a1628">
+<link rel="canonical" href="https://ridesmart-legal.github.io/legal/">
+
+<!-- Favicons -->
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/android-chrome-512x512.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RideSmart">
+<meta property="og:title" content="RideSmart — Documentación oficial">
+<meta property="og:description" content="Asistente de análisis de viajes para conductores de plataformas de transporte, con procesamiento OCR 100% local en el dispositivo.">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+
 <header class="site-header">
-  <nav class="navbar container">
+  <nav class="navbar container" aria-label="Navegación principal">
     <a href="index.html" class="brand">
-      <span class="brand-mark">RS</span>
+      <img src="assets/logo.png" alt="RideSmart" class="brand-logo" width="38" height="38">
       RideSmart
     </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú de navegación">
+      <span></span><span></span><span></span>
+    </label>
+
     <div class="nav-links">
-      <a href="index.html" class="is-active">Inicio</a>
+      <a href="index.html" class="is-active" aria-current="page">Inicio</a>
       <a href="privacy-policy.html">Privacidad</a>
       <a href="terms-and-conditions.html">Términos</a>
       <a href="licenses.html">Licencias</a>
@@ -24,7 +52,7 @@
   </nav>
 </header>
 
-<main>
+<main id="contenido">
 
   <section class="hero">
     <div class="container hero-inner">
@@ -52,6 +80,67 @@
         <a href="privacy-policy.html" class="btn btn-primary">Ver Política de Privacidad</a>
         <a href="terms-and-conditions.html" class="btn btn-ghost">Ver Términos y Condiciones</a>
         <a href="licenses.html" class="btn btn-ghost">Ver Licencias de Software</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Acerca de RideSmart</h2>
+        <p>Una aplicación pensada desde el diseño para proteger la privacidad del conductor.</p>
+      </div>
+
+      <div class="about-grid">
+
+        <article class="about-card">
+          <div class="about-icon">📱</div>
+          <div>
+            <h3>Procesamiento OCR 100% local</h3>
+            <p>Todo el análisis de texto en pantalla se ejecuta directamente en el dispositivo del usuario.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <div class="about-icon">🚫</div>
+          <div>
+            <h3>Sin backend propio</h3>
+            <p>RideSmart no depende de servidores propios para procesar la información del conductor.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <div class="about-icon">🔐</div>
+          <div>
+            <h3>Sin recopilación de datos personales</h3>
+            <p>No se solicitan nombre, correo, teléfono ni ningún otro dato personal identificable.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <div class="about-icon">📵</div>
+          <div>
+            <h3>Sin envío de capturas a servidores</h3>
+            <p>Las capturas de pantalla utilizadas para el análisis nunca salen del dispositivo.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <div class="about-icon">🤖</div>
+          <div>
+            <h3>Compatible con Android</h3>
+            <p>Desarrollada de forma nativa para funcionar de manera fluida en el ecosistema Android.</p>
+          </div>
+        </article>
+
+        <article class="about-card">
+          <div class="about-icon">⭐</div>
+          <div>
+            <h3>Suscripciones Premium vía Google Play</h3>
+            <p>Las funciones Premium se gestionan mediante Google Play Billing, de forma segura.</p>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
@@ -118,7 +207,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="index.html" class="brand">
-          <span class="brand-mark">RS</span>
+          <img src="assets/logo.png" alt="RideSmart" class="brand-logo" width="34" height="34">
           RideSmart
         </a>
         <p>Asistente de análisis de viajes para conductores de plataformas de transporte, con procesamiento local en el dispositivo.</p>
